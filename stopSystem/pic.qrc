@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pic/acc.jpg</file>
+        <file>pic/city.jpg</file>
+        <file>pic/lock.jpg</file>
+        <file>pic/passoff.jpg</file>
+        <file>pic/passon.jpg</file>
+        <file>pic/phone.jpg</file>
+        <file>pic/captcha.jpg</file>
+    </qresource>
+</RCC>

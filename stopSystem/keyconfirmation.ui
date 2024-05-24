@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>keyConfirmation</class>
+ <widget class="QDialog" name="keyConfirmation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{border-image: url(:/new/prefix1/pic/city.jpg);}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>请输入管理员密钥</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>80</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密钥</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>150</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="solfkeyui" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>600</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>160</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>160</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>solfkeyui</class>
+   <extends>QWidget</extends>
+   <header location="global">solfkeyui.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

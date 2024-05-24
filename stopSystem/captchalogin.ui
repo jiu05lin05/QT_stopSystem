@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>captChaLogin</class>
+ <widget class="QDialog" name="captChaLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>30</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="captChaLE">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="maxLength">
+    <number>8</number>
+   </property>
+   <property name="placeholderText">
+    <string>请输入验证码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>260</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="captChaLB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>200</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/captcha.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accountLB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>200</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/pic/phone.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="regButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>260</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titleLE">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>471</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>得意黑</family>
+     <pointsize>22</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>欢迎使用验证码登录</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phoneLE">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>90</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="maxLength">
+    <number>11</number>
+   </property>
+   <property name="placeholderText">
+    <string>请输入手机号码</string>
+   </property>
+  </widget>
+  <widget class="solfkeyui" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>320</y>
+     <width>600</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(236,142, 158);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="getcapButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>170</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>获取验证码</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>solfkeyui</class>
+   <extends>QWidget</extends>
+   <header location="global">solfkeyui.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
